@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="index.css"/>
+ </head>
+ <body>
+    <form class="main">
+      <div class="container">
+        <div id="display" >
+            <input type="text" value=" " name="display" id="working">
+        </div>
+        <div class="sub2">
+                   <input type="button" id="ac" value="AC" onclick="allClear ( )">
+                   <input type="button" value="/" onclick="addNumToDisplay ('/')">
+                   <input type="button" value="x" onclick="addNumToDisplay ('*')">
+                   <input type="button" value="^" onclick="squareNum ('**')">
+        </div>
+       
+
+
+        <div class="sub3">
+                   <input type="button" value="7" onclick="addNumToDisplay ('7')">
+                   <input type="button" value="8" onclick="addNumToDisplay ('8')">
+                   <input type="button" value="9" onclick="addNumToDisplay ('9')">
+                   <input type="button" value="-" onclick="addNumToDisplay ('-')">
+
+        </div>
+
+
+
+
+
+        <div class="sub4">
+                   <input type="button" value="4" onclick="addNumToDisplay ('4')">
+                   <input type="button" value="5" onclick="addNumToDisplay ('5')">
+                   <input type="button" value="6" onclick="addNumToDisplay ('6')">
+                   <input type="button" value="+" onclick="addNumToDisplay ('+')"> 
+        </div>
+
+
+
+
+        <div class="sub5">
+            <div class="sub123">
+                <div class="suba">
+                    <input type="button" value="3" onclick="addNumToDisplay ('3')">
+                    <input type="button" value="2" onclick="addNumToDisplay ('2')">
+                    <input type="button" value="1" onclick="addNumToDisplay ('1')">
+                </div> 
+
+
+
+
+                <div class="subb">
+                    <input type="button" value="." onclick="addNumToDisplay ('.')">
+                    <input type="button" value="0" onclick="addNumToDisplay ('0')">
+                    <input type="button" id="c" value="c" onclick="deleteNum ( )">
+                </div>
+            </div>
+            
+            <div id="subh3">
+                    <input type="button" value="=" onclick="calculateTheDisplay ('=')">
+            </div>
+        </div>
+      </div>
+  
+    </form>
+ </body>
+ </html>
